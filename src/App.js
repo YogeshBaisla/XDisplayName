@@ -28,7 +28,7 @@ function App() {
         }}/></div>
       <button type="submit">Submit</button>
       </form>
-      <div>{fullName}</div>
+      {fullName !== "" ? <div>{fullName}</div> : null}
     </div>
   );
 }
