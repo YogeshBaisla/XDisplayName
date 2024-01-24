@@ -27,8 +27,8 @@ function App() {
           setLastName(e.target.value)
         }}/></div>
       <button type="submit">Submit</button>
-      <div>{fullName}</div>
       </form>
+      <div>{fullName}</div>
     </div>
   );
 }
